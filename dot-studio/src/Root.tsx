@@ -12,6 +12,7 @@ import {AirplaneWindow} from './shorts/airplane-window-hole/AirplaneWindow';
 import {FPS as PLANE_FPS, T as PLANE_T} from './shorts/airplane-window-hole/beats';
 import {FPS as ORCA_FPS, OrcaLongform} from './longform/orcas/OrcaLongform';
 import {END as ORCA_END} from './longform/orcas/timeline';
+import {OrcaThumbnail} from './longform/orcas/Thumbnail';
 
 // Every Short takes its size as props (default vertical 1080x1920) so it can be re-framed for 16:9 later.
 type Size = {width: number; height: number};
@@ -80,5 +81,6 @@ export const Root: React.FC = () => (
       defaultProps={{width: 1920, height: 1080}}
       calculateMetadata={sized}
     />
+    <Composition id="OrcaThumbnail" component={OrcaThumbnail} durationInFrames={1} fps={60} width={1920} height={1080} />
   </>
 );
