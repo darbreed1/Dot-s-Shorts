@@ -113,5 +113,33 @@
       "https://www.sixthtone.com/news/1019171",
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10428107/"
     ]
+  },
+  {
+    "id": "airplane-window-hole",
+    "title": "Why is there a tiny hole in airplane windows?",
+    "idea": "Airplane windows have three panes, and the tiny breather hole in the middle one lets the outer pane carry the cabin pressure alone so the middle pane can stay in reserve as a backup; it also lets moisture out so the window doesn't fog.",
+    "topic": "Aircraft cabin window breather (bleed) hole and the three-pane window design",
+    "category": "engineering",
+    "longformCategory": "science-tech",
+    "alsoFits": ["everyday-mysteries"],
+    "contentType": "fun fact",
+    "evergreen": true,
+    "lengthSeconds": 30.8,
+    "dateMade": "2026-10-30",
+    "compositionId": "AirplaneWindow",
+    "script": "scripts/airplane-window-hole.md",
+    "files": {
+      "video4k": "out/airplane-window-hole-4K.mp4",
+      "captions": "out/airplane-window-hole.srt",
+      "scene": "src/shorts/airplane-window-hole/",
+      "pictures": "images/airplane-window-hole/",
+      "voice": "public/airplane-window-hole/vo/take1.wav"
+    },
+    "sources": [
+      "https://www.businessinsider.in/why-airplane-windows-have-tiny-holes/articleshow/62060678.cms",
+      "https://www.mentalfloss.com/transportation/planes-airports/why-airplane-windows-have-tiny-holes",
+      "https://migflug.com/afterburner/why-aircraft-windows-have-a-tiny-bleed-hole/",
+      "https://www.slashgear.com/1803399/airplane-windows-hole-reason-use-explained"
+    ]
   }
 ]
