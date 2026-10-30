@@ -1,0 +1,49 @@
+1
+00:00:00,480 --> 00:00:03,880
+Why is there a tiny hole
+in airplane windows?
+
+2
+00:00:04,800 --> 00:00:05,600
+It's on purpose.
+
+3
+00:00:06,520 --> 00:00:09,920
+Each window has three
+panes, and the hole is in
+
+4
+00:00:09,920 --> 00:00:10,720
+the middle one.
+
+5
+00:00:11,220 --> 00:00:14,680
+Up high, cabin air pushes
+hard against the thin
+
+6
+00:00:14,680 --> 00:00:15,560
+air outside.
+
+7
+00:00:16,480 --> 00:00:19,040
+The hole lets that pressure
+reach the outer pane,
+
+8
+00:00:19,520 --> 00:00:22,660
+so it carries the load
+alone, and the middle pane
+
+9
+00:00:22,660 --> 00:00:24,320
+stays ready as a backup.
+
+10
+00:00:25,340 --> 00:00:28,680
+The hole also lets moisture
+out, so your window
+
+11
+00:00:28,680 --> 00:00:29,920
+doesn't fog up.
