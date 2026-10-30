@@ -10,6 +10,8 @@ import {TerracottaArmy} from './shorts/terracotta-fingerprints/TerracottaArmy';
 import {FPS as TERRA_FPS, T as TERRA_T} from './shorts/terracotta-fingerprints/beats';
 import {AirplaneWindow} from './shorts/airplane-window-hole/AirplaneWindow';
 import {FPS as PLANE_FPS, T as PLANE_T} from './shorts/airplane-window-hole/beats';
+import {FPS as ORCA_FPS, OrcaLongform} from './longform/orcas/OrcaLongform';
+import {END as ORCA_END} from './longform/orcas/timeline';
 
 // Every Short takes its size as props (default vertical 1080x1920) so it can be re-framed for 16:9 later.
 type Size = {width: number; height: number};
@@ -65,6 +67,17 @@ export const Root: React.FC = () => (
       width={1080}
       height={1920}
       defaultProps={{width: 1080, height: 1920}}
+      calculateMetadata={sized}
+    />
+    {/* long-form: 16:9 */}
+    <Composition
+      id="OrcaLongform"
+      component={OrcaLongform as React.FC<Size>}
+      durationInFrames={Math.round(ORCA_END * ORCA_FPS)}
+      fps={ORCA_FPS}
+      width={1920}
+      height={1080}
+      defaultProps={{width: 1920, height: 1080}}
       calculateMetadata={sized}
     />
   </>

@@ -18,7 +18,7 @@ Orcas hunt great white sharks. They hunt blue whales, the biggest animals that h
 First, the name is a bit misleading. A killer whale is actually a dolphin, the biggest dolphin there is. A big male can grow to about nine metres long and weigh around six tonnes, as much as an elephant. Females can live for eighty years or more. Orcas live in every ocean, from warm seas to the ice around Antarctica, in tight family groups called pods, often led by an old mother, a grandmother.
 
 ### 3. The hunters
-And they are very good hunters. Off the south coast of Western Australia, researchers watched pods of orcas kill blue whales three times, including a healthy adult. The orcas took turns tiring the whale out, and some pressed down on it, so it couldn't get up to breathe. With great white sharks, orcas seem to want one thing: the liver, which is huge and full of energy-rich oil. Off South Africa, sharks have washed up with their livers neatly removed. And when orcas show up, great whites often leave the area for weeks or even months. So this is not a gentle animal. This is the ocean's top predator.
+And they are very, very good hunters. Off the south coast of Western Australia, researchers watched pods of orcas kill blue whales three times, including a healthy adult. The orcas took turns tiring the whale out, and some pressed down on it, so it couldn't get up to breathe. With great white sharks, orcas seem to want one thing: the liver, which is huge and full of energy-rich oil. Off South Africa, sharks have washed up with their livers neatly removed. And when orcas show up, great whites often leave the area for weeks or even months. So this is not a gentle animal. This is the ocean's top predator.
 
 ### 4. The record
 So what about us? There's one famous close call. In 1972, a surfer in California was bitten on the leg by an orca and needed about a hundred stitches. Scientists think it mistook him for a seal, and it let go. In recent years, a group of orcas off Spain and Portugal has been pushing sailing boats and breaking their rudders. But nobody has been killed. Orcas have had countless chances, and the number of people they've killed in the wild, as far as we know, is zero.
@@ -40,6 +40,9 @@ So why don't wild orcas kill us? Put the clues together. We're not on their lear
 
 ### 10. Ending
 And while orcas have left us alone, we haven't always returned the favour. In the 1960s and 70s, dozens of young orcas were captured off the Pacific Northwest for marine parks. Today the Southern Resident orcas who live there number only about seventy-five, and they're endangered, partly because their salmon has become scarce. So the next time you hear "killer whale", remember: the ocean's top predator has had every chance to hurt us, and it hasn't.
+
+(Recorded in ten section takes. Section 3 is spoken as "very, very good hunters"; a garbled repeat in section 9's take
+was cut. Produced as composition OrcaLongform, 1920x1080 at 60 fps, 2026-10-30, captions in out/orcas-longform.srt.)
 
 ## Notes for production
 

@@ -141,5 +141,35 @@
       "https://migflug.com/afterburner/why-aircraft-windows-have-a-tiny-bleed-hole/",
       "https://www.slashgear.com/1803399/airplane-windows-hole-reason-use-explained"
     ]
+  },
+  {
+    "id": "orcas-longform",
+    "title": "Why don't wild orcas kill people?",
+    "idea": "Orcas kill blue whales and great white sharks, yet there's no confirmed case of a wild orca killing a person: learned family diets, echolocation and a careful social brain are the clues, captivity is the exception, and scientists still can't fully explain it.",
+    "topic": "Orcas and humans: hunting, ecotypes and learned diets, echolocation, brain, captivity deaths, Southern Residents",
+    "category": "biology",
+    "longformCategory": "animals-nature",
+    "alsoFits": ["science-tech"],
+    "contentType": "fun fact",
+    "evergreen": true,
+    "format": "long-form 16:9",
+    "lengthSeconds": 349.29,
+    "dateMade": "2026-10-30",
+    "compositionId": "OrcaLongform",
+    "script": "scripts/orcas-longform.md",
+    "files": {
+      "video1080": "out/orcas-longform-1080p.mp4",
+      "captions": "out/orcas-longform.srt",
+      "scene": "src/longform/orcas/",
+      "pictures": "images/orcas/",
+      "voice": "public/orcas/vo/"
+    },
+    "sources": [
+      "https://www.nationalgeographic.com/animals/article/orcas-can-kill-blue-whales-the-biggest-animal-on-earth",
+      "https://www.nationalgeographic.com/animals/article/orcas-great-whites-sharks-livers-south-africa",
+      "https://en.wikipedia.org/wiki/Orca_attacks",
+      "https://www.fisheries.noaa.gov/species/killer-whale",
+      "https://www.whaleresearch.com/orca-population"
+    ]
   }
 ]
