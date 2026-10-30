@@ -2,11 +2,10 @@ import React from 'react';
 import {AbsoluteFill} from 'remotion';
 import {DesignSpace} from '../../kit/DesignSpace';
 import {Label} from '../../kit/Label';
-import {WorldSvg} from '../../kit/effects/WorldSvg';
-import {Bubbles, Critter, DotRig, GOLD, H, INK, Underwater, W} from './parts';
+import {Bubbles, Critter, DotRig, GOLD, H, Underwater, W} from './parts';
 import {S} from './sprites';
 
-// YouTube thumbnail (16:9): a huge orca nose to nose with Dot, "WHY NOT US?" and a "0 wild kills" badge.
+// YouTube thumbnail (16:9): a huge orca nose to nose with Dot, "WHY NOT US?" and a big "0 KILLS".
 // Rendered as a still (images/orcas/thumbnail.mjs) and saved as out/orcas-longform-thumbnail.jpg (1280x720).
 export const OrcaThumbnail: React.FC = () => {
   const t = 1.3; // a frozen moment of the bob / light-ray animation
@@ -20,15 +19,9 @@ export const OrcaThumbnail: React.FC = () => {
         <Critter sp={S.orca} x={720} y={650} w={1450} t={t} bob={0} rot={-4} />
         <DotRig t={t} swaps={[{at: 0, pose: 'dot_scuba'}]} x={1640} y={1010} headR={128} />
         <Bubbles t={t} x={1770} y={600} n={7} />
-        {/* the "0" badge */}
-        <WorldSvg box={[0, 0, W, H]}>
-          <g transform="translate(1290 215) rotate(8)">
-            <circle r={150} fill={GOLD} stroke={INK} strokeWidth={14} />
-            <circle r={122} fill="none" stroke="#FFFFFF" strokeWidth={6} strokeDasharray="18 12" />
-          </g>
-        </WorldSvg>
-        <Label t={t} t0={-5} x={1290} y={205} size={200} color="#FFFFFF">0</Label>
-        <Label t={t} t0={-5} x={1290} y={420} size={70} color="#FFFFFF">wild kills</Label>
+        {/* a big bold "0 KILLS" (no badge: a ring round the zero read as a donut) */}
+        <Label t={t} t0={-5} x={1290} y={215} size={360} color={GOLD}>0</Label>
+        <Label t={t} t0={-5} x={1290} y={440} size={140} color="#FFFFFF">KILLS</Label>
         <Label t={t} t0={-5} x={560} y={150} size={200} color="#FFFFFF">WHY NOT</Label>
         <Label t={t} t0={-5} x={560} y={340} size={220} color={GOLD}>US?</Label>
       </DesignSpace>
