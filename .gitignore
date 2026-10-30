@@ -9,3 +9,6 @@ node_modules/
 dot-studio/build/
 dot-studio/out/
 *.mp4
+
+# Python caches
+__pycache__/

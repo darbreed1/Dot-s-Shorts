@@ -10,7 +10,8 @@ const outDir = path.resolve(root, outRel);
 fs.mkdirSync(outDir, {recursive: true});
 // the bundled headless shell can sit past Windows' 260-char path limit; use a copy on a short path if present
 const shortBrowser = path.join(process.env.LOCALAPPDATA ?? '', 'dot-studio-chs', 'chrome-headless-shell.exe');
-const browserExecutable = fs.existsSync(shortBrowser) ? shortBrowser : null;
+// elsewhere (e.g. a Linux cloud box with its own headless shell) REMOTION_BROWSER points at a Chrome binary
+const browserExecutable = process.env.REMOTION_BROWSER ?? (fs.existsSync(shortBrowser) ? shortBrowser : null);
 const serveUrl = await bundle({entryPoint: path.join(root, 'src', 'index.ts'), outDir: path.join(root, 'build', 'bundle')});
 const composition = await selectComposition({serveUrl, id, browserExecutable});
 for (const s of secs.map(Number)) {

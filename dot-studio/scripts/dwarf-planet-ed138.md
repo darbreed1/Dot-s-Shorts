@@ -9,6 +9,8 @@
 
 Is there a new dwarf planet past Pluto? Maybe. Chile's new Rubin Observatory spotted an object forty-six times farther from the Sun than Earth. It might be up to fifteen hundred kilometres wide. Why did nobody see it before? It sits in the southern sky, in front of the crowded Milky Way, where one slow dot gets lost. To be a dwarf planet, it must be round. That still needs checking.
 
+(Recorded as written. Produced as composition DwarfPlanet, 2026-10-30, with captions in out/dwarf-planet-ed138.srt.)
+
 ## Notes for production
 
 - Size estimate is 600–1,500 km and uncertain (infrared observations needed). Discovered 13 October 2026 by Matthew Holman's moving-object search in Rubin data; earlier Rubin images back to 4 March 2026 confirmed the orbit.

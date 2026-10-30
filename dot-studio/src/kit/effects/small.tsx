@@ -109,3 +109,61 @@ export const MotionTicks: React.FC<{t: number; times: readonly number[]; x: numb
     </WorldSvg>
   );
 };
+
+/** Detection brackets: four corner marks that snap in from wider, settle on the target, and blink while on. */
+export const DetectBox: React.FC<{t: number; t0: number; t1: number; x: number; y: number; r: number; color?: string; ink?: number}> = ({
+  t, t0, t1, x, y, r, color = '#F2C14E', ink = 6,
+}) => {
+  const s = popScale(t, t0, t1, 0.3, 0.2);
+  if (s <= 0) return null;
+  const snap = 1 + 0.6 * (1 - clamp01((t - t0) / 0.3)) ** 2; // comes in from wider
+  const h = r * snap;
+  const arm = r * 0.45;
+  const blink = (t - t0) % 0.5 < 0.4 ? 1 : 0.55;
+  const corners = [[-1, -1], [1, -1], [1, 1], [-1, 1]];
+  return (
+    <WorldSvg box={[x - h * 1.3 - ink, y - h * 1.3 - ink, x + h * 1.3 + ink, y + h * 1.3 + ink]}>
+      <g opacity={blink} transform={`translate(${x} ${y}) scale(${Math.min(1, s)})`}>
+        {corners.map(([sx, sy], i) => (
+          <g key={i}>
+            <path d={`M${sx * h},${sy * (h - arm)} L${sx * h},${sy * h} L${sx * (h - arm)},${sy * h}`} fill="none" stroke="#15151C" strokeWidth={ink * 2} strokeLinecap="round" strokeLinejoin="round" />
+            <path d={`M${sx * h},${sy * (h - arm)} L${sx * h},${sy * h} L${sx * (h - arm)},${sy * h}`} fill="none" stroke={color} strokeWidth={ink} strokeLinecap="round" strokeLinejoin="round" />
+          </g>
+        ))}
+      </g>
+    </WorldSvg>
+  );
+};
+
+/** Camera flash: a white disc that blooms and a ring that races outward, both gone in ~0.4 s. */
+export const FlashRing: React.FC<{t: number; t0: number; x: number; y: number; r: number; ink?: number}> = ({t, t0, x, y, r, ink = 6}) => {
+  const u = (t - t0) / 0.42;
+  if (u < 0 || u > 1) return null;
+  const bloom = Math.sin(Math.PI * Math.min(1, u * 1.6)) * r * 0.7;
+  const ring = r * (0.3 + 1.2 * Math.sqrt(u));
+  const k = ink * (1 - u);
+  return (
+    <WorldSvg box={[x - r * 1.6, y - r * 1.6, x + r * 1.6, y + r * 1.6]}>
+      {bloom > 0.5 ? <circle cx={x} cy={y} r={bloom} fill="#FFFFFF" opacity={0.9 * (1 - u)} /> : null}
+      <circle cx={x} cy={y} r={ring} fill="none" stroke="#FFFFFF" strokeWidth={k * 2.2} />
+      <circle cx={x} cy={y} r={ring} fill="none" stroke="#15151C" strokeWidth={k * 0.5} />
+    </WorldSvg>
+  );
+};
+
+/** A dashed circle drawn on like a compass sweep between t0 and t1 (stays drawn after). */
+export const DrawnCircle: React.FC<{t: number; t0: number; t1: number; x: number; y: number; r: number; color?: string; ink?: number; dash?: number}> = ({
+  t, t0, t1, x, y, r, color = '#FFFFFF', ink = 8, dash = 26,
+}) => {
+  const u = easeInOutCubic(clamp01((t - t0) / (t1 - t0)));
+  if (u <= 0) return null;
+  const a1 = -Math.PI / 2 + u * 2 * Math.PI * 0.9999;
+  const large = u > 0.5 ? 1 : 0;
+  const d = `M${x},${y - r} A${r},${r} 0 ${large},1 ${x + r * Math.cos(a1)},${y + r * Math.sin(a1)}`;
+  return (
+    <WorldSvg box={[x - r - ink * 2, y - r - ink * 2, x + r + ink * 2, y + r + ink * 2]}>
+      <path d={d} fill="none" stroke="#15151C" strokeWidth={ink * 2} strokeDasharray={`${dash} ${dash * 0.6}`} strokeLinecap="round" />
+      <path d={d} fill="none" stroke={color} strokeWidth={ink} strokeDasharray={`${dash} ${dash * 0.6}`} strokeLinecap="round" />
+    </WorldSvg>
+  );
+};

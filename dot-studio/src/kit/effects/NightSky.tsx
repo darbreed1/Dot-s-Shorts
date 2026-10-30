@@ -9,7 +9,7 @@ import {sparklePath} from './shapes';
 export const NightSky: React.FC<{
   t: number;
   wheelDeg?: number; // rotation of stars + moon around the wheel centre
-  moon?: {x: number; y: number; r: number}; // screen position at wheelDeg 0 (in a 1080x1920 frame)
+  moon?: {x: number; y: number; r: number} | null; // screen position at wheelDeg 0 (in a 1080x1920 frame); null = no moon
   top?: string;
   bottom?: string;
   count?: number;
@@ -27,9 +27,9 @@ export const NightSky: React.FC<{
     const tw = 0.55 + 0.45 * Math.sin(2 * Math.PI * (0.3 + rand(i + 77) * 0.5) * t + i);
     return {x: cx + r * Math.cos(a), y: cy + r * Math.sin(a), size, tw, sparkle: size > 8.5};
   });
-  const mx = moon.x * sx;
-  const my = moon.y * sy;
-  const mr = moon.r * Math.min(sx, sy);
+  const mx = (moon?.x ?? 0) * sx;
+  const my = (moon?.y ?? 0) * sy;
+  const mr = (moon?.r ?? 0) * Math.min(sx, sy);
   return (
     <AbsoluteFill style={{background: `linear-gradient(${top}, ${bottom})`}}>
       <svg width={width} height={height} style={{position: 'absolute', inset: 0}}>
@@ -47,11 +47,15 @@ export const NightSky: React.FC<{
               <circle key={i} cx={s.x} cy={s.y} r={s.size / 2.6} fill="#FFF6D8" opacity={s.tw} />
             ),
           )}
-          <circle cx={mx} cy={my} r={mr * 2.6} fill="url(#moonGlow)" />
-          <circle cx={mx} cy={my} r={mr} fill="#FFF1C2" stroke="#15151C" strokeWidth={5} />
-          <circle cx={mx - mr * 0.3} cy={my - mr * 0.2} r={mr * 0.2} fill="#F0DC9E" />
-          <circle cx={mx + mr * 0.32} cy={my + mr * 0.28} r={mr * 0.13} fill="#F0DC9E" />
-          <circle cx={mx + mr * 0.15} cy={my - mr * 0.45} r={mr * 0.09} fill="#F0DC9E" />
+          {moon ? (
+            <>
+              <circle cx={mx} cy={my} r={mr * 2.6} fill="url(#moonGlow)" />
+              <circle cx={mx} cy={my} r={mr} fill="#FFF1C2" stroke="#15151C" strokeWidth={5} />
+              <circle cx={mx - mr * 0.3} cy={my - mr * 0.2} r={mr * 0.2} fill="#F0DC9E" />
+              <circle cx={mx + mr * 0.32} cy={my + mr * 0.28} r={mr * 0.13} fill="#F0DC9E" />
+              <circle cx={mx + mr * 0.15} cy={my - mr * 0.45} r={mr * 0.09} fill="#F0DC9E" />
+            </>
+          ) : null}
         </g>
       </svg>
     </AbsoluteFill>

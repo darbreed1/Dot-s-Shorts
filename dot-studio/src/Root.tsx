@@ -4,6 +4,8 @@ import {SpiderSleep} from './shorts/spider-sleep/SpiderSleep';
 import {FPS as SPIDER_FPS, T as SPIDER_T} from './shorts/spider-sleep/beats';
 import {OnionTears} from './shorts/onion-tears/OnionTears';
 import {FPS as ONION_FPS, T as ONION_T} from './shorts/onion-tears/beats';
+import {DwarfPlanet} from './shorts/dwarf-planet-ed138/DwarfPlanet';
+import {FPS as DWARF_FPS, T as DWARF_T} from './shorts/dwarf-planet-ed138/beats';
 
 // Every Short takes its size as props (default vertical 1080x1920) so it can be re-framed for 16:9 later.
 type Size = {width: number; height: number};
@@ -26,6 +28,16 @@ export const Root: React.FC = () => (
       component={OnionTears as React.FC<Size>}
       durationInFrames={Math.round(ONION_T.end * ONION_FPS)}
       fps={ONION_FPS}
+      width={1080}
+      height={1920}
+      defaultProps={{width: 1080, height: 1920}}
+      calculateMetadata={sized}
+    />
+    <Composition
+      id="DwarfPlanet"
+      component={DwarfPlanet as React.FC<Size>}
+      durationInFrames={Math.round(DWARF_T.end * DWARF_FPS)}
+      fps={DWARF_FPS}
       width={1080}
       height={1920}
       defaultProps={{width: 1080, height: 1920}}

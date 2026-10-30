@@ -4,8 +4,10 @@ import json, os, subprocess, sys, wave
 import numpy as np
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-BIN = os.path.join(ROOT, "node_modules", "@remotion", "compositor-win32-x64-msvc")
-FFPROBE, FFMPEG = os.path.join(BIN, "ffprobe.exe"), os.path.join(BIN, "ffmpeg.exe")
+# Remotion's own ffmpeg/ffprobe for this platform (Windows PC, or the Linux cloud box)
+_win = os.name == "nt"
+BIN = os.path.join(ROOT, "node_modules", "@remotion", "compositor-win32-x64-msvc" if _win else "compositor-linux-x64-gnu")
+FFPROBE, FFMPEG = (os.path.join(BIN, "ffprobe.exe"), os.path.join(BIN, "ffmpeg.exe")) if _win else (os.path.join(BIN, "ffprobe"), os.path.join(BIN, "ffmpeg"))
 video = sys.argv[1]
 W, H, FPS, SEC = (int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4]), float(sys.argv[5])) if len(sys.argv) > 5 else (2160, 3840, 60, 29.2)
 

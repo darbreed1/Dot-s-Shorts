@@ -1,12 +1,11 @@
 import React from 'react';
 import {AbsoluteFill, useVideoConfig} from 'remotion';
-import {loadFont} from '@remotion/google-fonts/LilitaOne';
 import {clamp01, easeOutBack} from './anim';
+import {fontFamily} from './font';
 
 // Burned-in captions: 1-3 words per group (split at punctuation, after 3 words, or at a pause), the spoken word
 // highlighted, a small pop-in per group. Sizes derive from the composition size. Words come from
 // images/lib/captions.py (script spelling, voice timing).
-const {fontFamily} = loadFont('normal', {weights: ['400'], subsets: ['latin']});
 
 export type CapWord = {readonly w: string; readonly s: number; readonly e: number};
 

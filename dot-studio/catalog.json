@@ -55,5 +55,34 @@
       "https://physicsworld.com/a/the-physics-behind-why-cutting-onions-makes-us-cry/",
       "https://www.snexplores.org/article/slow-sharp-cuts-onion-crying"
     ]
+  },
+  {
+    "id": "dwarf-planet-ed138",
+    "title": "Is there a new dwarf planet past Pluto?",
+    "idea": "The new Rubin Observatory spotted 2026 ED138, an object past Pluto that may be up to 1,500 km wide, hidden until now in the southern sky against the crowded Milky Way, and it's still only a candidate.",
+    "topic": "Dwarf planet candidate 2026 ED138, Vera C. Rubin Observatory's first, announced 27 October 2026",
+    "category": "space",
+    "longformCategory": "space-earth",
+    "alsoFits": ["science-tech"],
+    "contentType": "current affairs",
+    "evergreen": false,
+    "lengthSeconds": 28.75,
+    "dateMade": "2026-10-30",
+    "compositionId": "DwarfPlanet",
+    "script": "scripts/dwarf-planet-ed138.md",
+    "files": {
+      "video4k": "out/dwarf-planet-ed138-4K.mp4",
+      "captions": "out/dwarf-planet-ed138.srt",
+      "scene": "src/shorts/dwarf-planet-ed138/",
+      "pictures": "images/dwarf-planet-ed138/",
+      "voice": "public/dwarf-planet-ed138/vo/take1.wav"
+    },
+    "sources": [
+      "https://rubinobservatory.org/news/rubin-first-dwarf-planet-candidate",
+      "https://noirlab.edu/public/news/noirlab2626/",
+      "https://www.scientificamerican.com/article/the-vera-c-rubin-observatory-may-have-just-discovered-our-solar-systems-sixth-dwarf-planet/",
+      "https://www.cnn.com/2026/10/28/science/ed138-dwarf-planet-candidate-beyond-pluto",
+      "https://phys.org/news/2026-10-rubin-observatory-reveals-dwarf-planet.html"
+    ]
   }
 ]
