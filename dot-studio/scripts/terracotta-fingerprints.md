@@ -7,7 +7,9 @@
 
 ## Voiceover
 
-Who built China's Terracotta Army? Not just men. The clay soldiers are about 2,200 years old, and their makers left fingerprints in the clay. Smaller hands, like women's and children's, have tighter-packed ridges. Researchers measured 79 prints from one pit. About a third came from women, and a fifth from children under 15. It's a small sample, but this army had more helpers than we thought.
+Who built China's Terracotta Army? Not just men. The clay soldiers are about twenty-two hundred years old, and their makers left fingerprints in the clay. Smaller hands, like women's and children's, have tighter-packed ridges. Researchers measured seventy-nine prints from one pit. About a third came from women, and a fifth from children under fifteen. It's a small sample, but this army had more helpers than we thought.
+
+(Recorded version: numbers written as words for the voice ("twenty-two hundred", "seventy-nine", "fifteen"), same facts. The take's 8 s silent gap after "fifteen" was cut. Produced as composition TerracottaArmy, 2026-10-30, with captions in out/terracotta-fingerprints.srt.)
 
 ## Notes for production
 

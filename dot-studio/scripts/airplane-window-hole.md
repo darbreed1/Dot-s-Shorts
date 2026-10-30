@@ -8,6 +8,8 @@
 
 Why is there a tiny hole in airplane windows? It's on purpose. Each window has three panes, and the hole is in the middle one. Up high, cabin air pushes hard against the thin air outside. The hole lets that pressure reach the outer pane, so it carries the load alone, and the middle pane stays ready as a backup. The hole also lets moisture out, so your window doesn't fog up.
 
+(Recorded as written; long pauses capped at 0.7 s. Produced as composition AirplaneWindow, 2026-10-30, with captions in out/airplane-window-hole.srt.)
+
 ## Notes for production
 
 - Panes from outside in: outer (structural, takes the pressure difference), middle (fail-safe, has the bleed/breather hole), inner thin "scratch pane" (protects the others from passengers).

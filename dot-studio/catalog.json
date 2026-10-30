@@ -84,5 +84,34 @@
       "https://www.cnn.com/2026/10/28/science/ed138-dwarf-planet-candidate-beyond-pluto",
       "https://phys.org/news/2026-10-rubin-observatory-reveals-dwarf-planet.html"
     ]
+  },
+  {
+    "id": "terracotta-fingerprints",
+    "title": "Who built the Terracotta Army?",
+    "idea": "Fingerprints left in the clay of the 2,200-year-old Terracotta Army suggest women and children under 15 helped make the warriors, not only men, though the sample is small and from one pit.",
+    "topic": "Terracotta Army fingerprint age and sex study (Journal of Cultural Heritage, October 2026)",
+    "category": "history",
+    "longformCategory": "history",
+    "alsoFits": ["human-body"],
+    "contentType": "current affairs",
+    "evergreen": false,
+    "lengthSeconds": 26.45,
+    "dateMade": "2026-10-30",
+    "compositionId": "TerracottaArmy",
+    "script": "scripts/terracotta-fingerprints.md",
+    "files": {
+      "video4k": "out/terracotta-fingerprints-4K.mp4",
+      "captions": "out/terracotta-fingerprints.srt",
+      "scene": "src/shorts/terracotta-fingerprints/",
+      "pictures": "images/terracotta-fingerprints/",
+      "voice": "public/terracotta-fingerprints/vo/take1.wav"
+    },
+    "sources": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S1296207426002062",
+      "https://archaeologymag.com/2026/10/fingerprints-in-the-terracotta-armys-clay/",
+      "https://www.heritagedaily.com/2026/10/fingerprints-reveal-who-may-have-built-chinas-terracotta-army/159695",
+      "https://www.sixthtone.com/news/1019171",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10428107/"
+    ]
   }
 ]

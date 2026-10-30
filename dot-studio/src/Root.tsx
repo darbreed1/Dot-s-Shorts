@@ -6,6 +6,10 @@ import {OnionTears} from './shorts/onion-tears/OnionTears';
 import {FPS as ONION_FPS, T as ONION_T} from './shorts/onion-tears/beats';
 import {DwarfPlanet} from './shorts/dwarf-planet-ed138/DwarfPlanet';
 import {FPS as DWARF_FPS, T as DWARF_T} from './shorts/dwarf-planet-ed138/beats';
+import {TerracottaArmy} from './shorts/terracotta-fingerprints/TerracottaArmy';
+import {FPS as TERRA_FPS, T as TERRA_T} from './shorts/terracotta-fingerprints/beats';
+import {AirplaneWindow} from './shorts/airplane-window-hole/AirplaneWindow';
+import {FPS as PLANE_FPS, T as PLANE_T} from './shorts/airplane-window-hole/beats';
 
 // Every Short takes its size as props (default vertical 1080x1920) so it can be re-framed for 16:9 later.
 type Size = {width: number; height: number};
@@ -38,6 +42,26 @@ export const Root: React.FC = () => (
       component={DwarfPlanet as React.FC<Size>}
       durationInFrames={Math.round(DWARF_T.end * DWARF_FPS)}
       fps={DWARF_FPS}
+      width={1080}
+      height={1920}
+      defaultProps={{width: 1080, height: 1920}}
+      calculateMetadata={sized}
+    />
+    <Composition
+      id="TerracottaArmy"
+      component={TerracottaArmy as React.FC<Size>}
+      durationInFrames={Math.round(TERRA_T.end * TERRA_FPS)}
+      fps={TERRA_FPS}
+      width={1080}
+      height={1920}
+      defaultProps={{width: 1080, height: 1920}}
+      calculateMetadata={sized}
+    />
+    <Composition
+      id="AirplaneWindow"
+      component={AirplaneWindow as React.FC<Size>}
+      durationInFrames={Math.round(PLANE_T.end * PLANE_FPS)}
+      fps={PLANE_FPS}
       width={1080}
       height={1920}
       defaultProps={{width: 1080, height: 1920}}
