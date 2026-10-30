@@ -1,0 +1,27 @@
+# Dot pose library — prompts
+
+Model `gpt_image_2_5`, 4k, quality high, background transparent, aspect 2:3. Every pose prompt = the line below +
+STYLE_CHAR (verbatim from the cutout-cartoon-shorts skill), with `images/dot/dot-hero.png` as the reference
+(Higgsfield job a67b7f06-2d0a-40e1-acd0-4647472a5822 can be passed directly as a reference).
+
+Watch is always on the wrist on the LEFT side of the image.
+
+| file | first used | pose line |
+|------|-----------|-----------|
+| dot-hero.png | spider-sleep | (no reference; STYLE_CHAR with "in a simple flat 2D cartoon style: a simple") Full body, three-quarter view facing to the right, friendly curious smile, the watch is on the wrist on the LEFT side of the image, whole body in frame with a margin. |
+| dot_lookup.png | spider-sleep | Full body, three-quarter view facing to the right, looking up and to the right with a curious small smile and raised eyebrows, the hand on the RIGHT side of the image touching his chin, the other arm relaxed at his side. |
+| dot_two.png | spider-sleep | Full body, facing the viewer, friendly explaining smile with the mouth slightly open, the hand on the RIGHT side of the image raised beside the head holding up exactly two fingers, the other arm relaxed at his side. |
+| dot_watch.png | spider-sleep | Full body, three-quarter view facing to the right, the arm on the LEFT side of the image bent and raised in front of his chest so the big watch on that wrist faces the viewer, the index finger of the hand on the RIGHT side of the image tapping the watch face, looking down at the watch with a focused little smile. |
+| dot_surprised.png | spider-sleep | Full body, three-quarter view facing to the right, surprised: wide eyes, eyebrows high, small round open mouth, both hands raised up beside the head with fingers spread, the thin antenna standing perfectly straight up out of the hat tip with the red ball on top. (STYLE_CHAR with "curly" removed from the antenna.) |
+| dot_aha.png | spider-sleep | Full body, three-quarter view facing to the right, an 'I get it' moment: happy confident smile, eyebrows raised, the hand on the RIGHT side of the image raised with the index finger pointing straight up, the other arm relaxed at his side. |
+| dot_bell.png | spider-sleep | Full body, three-quarter view facing to the right, ringing a small brass hand bell with a short wooden handle held up high in the hand on the RIGHT side of the image, eyes squeezed shut into two '> <' chevrons, wide gritted-teeth grin, the other arm bent out to the side for balance. |
+| dot_droop.png | spider-sleep | Full body, three-quarter view facing to the right, disappointed deadpan: half-closed flat eyes, flat straight mouth, shoulders slumped, the antenna drooping down limply over the side of the hat with the red ball hanging low, the hand on the RIGHT side of the image hanging low and loosely holding a small brass hand bell with a short wooden handle pointing down. |
+| dot_shrug.png | spider-sleep | Full body, facing the viewer, a friendly shrug: both hands out to the sides at shoulder height with palms up, eyebrows raised, small lopsided smile. |
+| dot_cry_knife.png | onion-tears | Full body, three-quarter view facing to the right, crying: eyebrows tilted up in the middle, eyes squeezed shut into two '> <' chevrons, two streams of light-blue tears running down his cheeks, wobbly open frowning mouth, the hand on the RIGHT side of the image holds a large kitchen chef's knife with a black handle, blade pointing up; that arm hanging down on the watch side. |
+| dot_chop.png | onion-tears | Full body, three-quarter view facing to the right, determined: eyebrows tilted down, small focused smile, the hand on the RIGHT side of the image raised high above his head holding a large kitchen chef's knife with a black handle, blade pointing down and forward, ready to chop; the watch hand held out in front of him. |
+| dot_squeeze.png | onion-tears | (4:5) Waist-up close-up, facing the viewer, centred: stinging eyes squeezed shut into two '> <' chevrons, two streams of light-blue tears gushing from the eyes, wincing wavy mouth, both hands raised beside his cheeks with fingers spread. Whole upper body and hat in frame with a margin. (Its bottom edge is a cut-off: place it with that edge on the frame edge.) |
+| dot_knife_show.png | onion-tears | Full body, facing the viewer, confident proud smile, eyebrows raised, the hand on the RIGHT side of the image holds a large shiny kitchen chef's knife with a black handle upright beside his head, blade pointing up, the other hand on his hip. |
+| dot_slow_cut.png | onion-tears | Full body, three-quarter view facing to the right, calm and careful: relaxed small smile, eyes looking down and to the right, the hand on the RIGHT side of the image held low in front of him gripping a large kitchen chef's knife with a black handle, the blade pointing down and to the right as if slowly slicing something on a table; the watch hand resting in front of his tummy. |
+
+Trimmed, downscaled (max side 1800 px) copies live in `public/dot/`; measurements (head disc, feet, antenna ball)
+are written by each Short's prep.py.

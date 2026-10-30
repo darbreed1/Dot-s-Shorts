@@ -1,0 +1,11 @@
+# Only the project folders go in the repo
+/*
+!/.gitignore
+!/.claude/
+!/dot-studio/
+
+# Rebuildable output
+node_modules/
+dot-studio/build/
+dot-studio/out/
+*.mp4

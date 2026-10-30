@@ -1,0 +1,59 @@
+[
+  {
+    "id": "spider-sleep",
+    "title": "Do spiders sleep in stages?",
+    "idea": "A new study filmed jumping spiders through the night and found two sleep stages, one resembling our REM sleep, but whether spiders dream is still unknown.",
+    "topic": "Jumping spider (Portia fimbriata) sleep stages, University of Bonn, PNAS 2026",
+    "category": "biology",
+    "longformCategory": "animals-nature",
+    "alsoFits": ["human-body"],
+    "contentType": "current affairs",
+    "evergreen": false,
+    "lengthSeconds": 29.2,
+    "dateMade": "2026-10-28",
+    "compositionId": "SpiderSleep",
+    "script": "scripts/jumping-spider-sleep.md",
+    "files": {
+      "video4k": "out/spider-sleep-4K.mp4",
+      "scene": "src/shorts/spider-sleep/",
+      "pictures": "images/spider-sleep/",
+      "voice": "public/spider-sleep/vo/take1.wav"
+    },
+    "sources": [
+      "https://www.eurekalert.org/news-releases/1148974",
+      "https://www.sciencedaily.com/releases/2026/10/261026225555.htm",
+      "https://www.abc.net.au/news/science/2026-10-27/jumping-spider-rem-sleep/107309370",
+      "https://doi.org/10.1073/pnas.2618030123"
+    ]
+  },
+  {
+    "id": "onion-tears",
+    "title": "Why do onions make you cry?",
+    "idea": "Cutting an onion mixes two separately stored ingredients that an enzyme turns into an eye-stinging gas, probably a defence against animals; a sharp knife used slowly sprays less of it.",
+    "topic": "Onion lachrymatory factor (Imai et al., Nature 2002) and onion-cutting droplets (Wu, Jung et al., PNAS 2025)",
+    "category": "food science",
+    "longformCategory": "food-kitchen",
+    "alsoFits": ["human-body", "everyday-mysteries"],
+    "contentType": "fun fact",
+    "evergreen": true,
+    "lengthSeconds": 30.9,
+    "dateMade": "2026-10-29",
+    "compositionId": "OnionTears",
+    "script": "scripts/onion-tears.md",
+    "files": {
+      "video4k": "out/onion-tears-4K.mp4",
+      "captions": "out/onion-tears.srt",
+      "scene": "src/shorts/onion-tears/",
+      "pictures": "images/onion-tears/",
+      "voice": "public/onion-tears/vo/take1.wav"
+    },
+    "sources": [
+      "https://www.nature.com/articles/419685a",
+      "https://www.scientificamerican.com/article/what-is-the-chemical-proc/",
+      "https://www.the-scientist.com/the-crying-gene-52622",
+      "https://www.news.cornell.edu/stories/2025/10/mist-opportunity-reveals-how-onions-make-cooks-cry",
+      "https://physicsworld.com/a/the-physics-behind-why-cutting-onions-makes-us-cry/",
+      "https://www.snexplores.org/article/slow-sharp-cuts-onion-crying"
+    ]
+  }
+]

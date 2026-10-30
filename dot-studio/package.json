@@ -1,0 +1,23 @@
+{
+  "name": "dot-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dot cut-out cartoon Shorts (Remotion)",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.290",
+    "@remotion/cli": "4.0.290",
+    "@remotion/google-fonts": "^4.0.290",
+    "@remotion/renderer": "^4.0.290",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.290"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.8.2"
+  }
+}

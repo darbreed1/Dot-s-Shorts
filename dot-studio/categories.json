@@ -1,0 +1,12 @@
+{
+  "about": "Long-form compilation categories. Every Short in catalog.json gets exactly one `longformCategory` (the bundle it belongs to) and optionally `alsoFits` (other bundles it could join). Long-form videos are built per category from catalog.json, leaning on evergreen Shorts. Add a new category here only when a Short fits none of these.",
+  "categories": [
+    {"id": "animals-nature", "title": "Animals & Nature", "covers": "animal behaviour, plants, ecosystems, weird creatures"},
+    {"id": "food-kitchen", "title": "Food & Kitchen Science", "covers": "why food does what it does, cooking chemistry, kitchen myths"},
+    {"id": "human-body", "title": "Human Body & Health", "covers": "how the body works, senses, sleep, health explained (not advice)"},
+    {"id": "space-earth", "title": "Space & Planet Earth", "covers": "astronomy, space missions, weather, volcanoes, oceans, geology"},
+    {"id": "history", "title": "History & Ancient Mysteries", "covers": "past events, ancient tech, archaeology, origins of things"},
+    {"id": "science-tech", "title": "Science, Tech & Engineering", "covers": "physics, inventions, machines, technology, how things are built"},
+    {"id": "everyday-mysteries", "title": "Everyday Mysteries", "covers": "ordinary things with surprising explanations that fit nowhere above"}
+  ]
+}
