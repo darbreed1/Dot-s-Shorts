@@ -1,6 +1,8 @@
 # Only the project folders go in the repo
 /*
 !/.gitignore
+!/CLAUDE.md
+!/skills/
 !/.claude/
 !/dot-studio/
 
