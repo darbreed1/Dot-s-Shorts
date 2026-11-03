@@ -25,15 +25,24 @@ const dbAt = (c: Cue, t: number) => {
   return k[k.length - 1][1];
 };
 
-export const Mixer: React.FC<{cues: readonly Cue[]}> = ({cues}) => {
+/**
+ * `offset` (s) = the absolute time shown at frame 0, and `end` (s) = the absolute time where the window stops, so a
+ * chapter of a long-form can be rendered on its own: cues outside the window are dropped, a cue already playing at
+ * the window start is trimmed to begin mid-file. Without them the mixer plays the whole cue list from 0.
+ */
+export const Mixer: React.FC<{cues: readonly Cue[]; offset?: number; end?: number}> = ({cues, offset = 0, end = Infinity}) => {
   const {fps} = useVideoConfig();
   return (
     <>
       {cues.map((c, i) => {
-        const from = Math.round(c.at * fps);
+        if (c.at >= end || (c.until !== undefined && c.until <= offset)) return null;
+        const start = Math.max(c.at, offset);
+        const from = Math.round((start - offset) * fps);
+        const trim = Math.round((start - c.at) * fps);
+        const stop = Math.min(c.until ?? Infinity, end);
         return (
-          <Sequence key={i} from={from} durationInFrames={c.until ? Math.round((c.until - c.at) * fps) : undefined} layout="none">
-            <Audio src={staticFile(c.f)} loop={c.loop} volume={(f) => 10 ** (dbAt(c, (from + f) / fps) / 20)} />
+          <Sequence key={i} from={from} durationInFrames={stop < Infinity ? Math.max(1, Math.round((stop - start) * fps)) : undefined} layout="none">
+            <Audio src={staticFile(c.f)} loop={c.loop} startFrom={trim > 0 ? trim : undefined} volume={(f) => 10 ** (dbAt(c, start + f / fps) / 20)} />
           </Sequence>
         );
       })}
