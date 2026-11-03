@@ -1,0 +1,17 @@
+{
+  "base": "https://d8j0ntlcm91z4.cloudfront.net/user_3JgpZXBjUvV4xIVI4acvM75El9e/",
+  "images/raising-chicago/vo_raw.wav": "hf_20261102_152243_6763e00b-f814-4bf2-888b-0ef65cedb27f.wav",
+  "images/raising-chicago/raw/building_a.png": "hf_20261102_152251_62406d6a-fc07-45c8-a798-3f1429aa539f.png",
+  "images/raising-chicago/raw/building_b.png": "hf_20261102_152254_73762791-4863-4c0c-a58b-4292acff1591.png",
+  "images/raising-chicago/raw/worker_jack.png": "hf_20261102_152253_9b59fcc4-2075-45b1-8167-e9dd94833ad3.png",
+  "images/raising-chicago/raw/townsman.png": "hf_20261102_152254_fae822a6-03da-4802-a536-be919fce59f0.png",
+  "images/raising-chicago/raw/townswoman.png": "hf_20261102_152252_ba340d8a-4c19-453d-ab7a-01d89aac979f.png",
+  "images/raising-chicago/sfx-raw/creak.wav": "hf_20261102_152240_bf9bad87-e52a-48b5-bc4e-64f597dc7d6d.wav",
+  "images/raising-chicago/sfx-raw/ratchet.wav": "hf_20261102_152242_13a608fa-8455-4539-8b5d-776e9b3a16c8.wav",
+  "images/raising-chicago/sfx-raw/frog_croak.wav": "hf_20261102_152242_27f49de1-e21e-4545-b9dd-f9d4ecd12d1f.wav",
+  "images/raising-chicago/sfx-raw/mud_squelch.wav": "hf_20261102_152241_3501f651-9ede-4a35-be7e-bc0c970ecfd2.wav",
+  "images/raising-chicago/sfx-raw/street_tone.wav": "hf_20261102_152242_e4bddb8a-afcc-4083-bf80-91fcf6ee8f38.wav",
+  "images/raising-chicago/sfx-raw/pipe_gurgle.wav": "hf_20261102_152240_522880ac-90c6-4f48-ac9b-18e5fb3f2458.wav",
+  "images/raising-chicago/sfx-raw/dirt_pour.wav": "hf_20261102_152243_3b8197ea-9090-4fcd-bbf8-8d430f4edbbc.wav",
+  "images/raising-chicago/sfx-raw/shop_bell.wav": "hf_20261102_152331_e97c5ad5-889d-4f80-842c-52f15f8c7c5e.wav"
+}

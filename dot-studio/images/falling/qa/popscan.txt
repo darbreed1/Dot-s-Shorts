@@ -1,0 +1,5 @@
+  frame   897  t= 14.95s  diff 109.01  (local median 0.13)
+  frame  1780  t= 29.67s  diff  56.02  (local median 0.11)
+  frame  2031  t= 33.85s  diff  17.89  (local median 0.16)
+  frame  2680  t= 44.67s  diff  46.01  (local median 0.76)
+  frame  3806  t= 63.43s  diff  42.64  (local median 1.23)

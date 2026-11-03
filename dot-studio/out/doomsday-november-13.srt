@@ -1,0 +1,49 @@
+1
+00:00:00,320 --> 00:00:04,400
+Is the world ending on
+Friday, November 13th, 2026?
+
+2
+00:00:05,300 --> 00:00:08,020
+That date comes from a real
+1960 paper in the journal
+
+3
+00:00:08,020 --> 00:00:08,820
+Science.
+
+4
+00:00:09,620 --> 00:00:12,680
+Three researchers fitted
+2,000 years of population
+
+5
+00:00:12,680 --> 00:00:14,220
+estimates to one curve.
+
+6
+00:00:14,660 --> 00:00:18,200
+Growth kept speeding up,
+so their curve hit infinite
+
+7
+00:00:18,200 --> 00:00:20,240
+people on that exact Friday.
+
+8
+00:00:21,180 --> 00:00:23,500
+It was a warning,
+not a prophecy.
+
+9
+00:00:24,460 --> 00:00:25,360
+And it didn't hold.
+
+10
+00:00:26,160 --> 00:00:28,900
+Families got smaller, and
+real numbers fell behind
+
+11
+00:00:28,900 --> 00:00:29,700
+the curve.

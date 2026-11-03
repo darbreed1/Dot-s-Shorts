@@ -6,7 +6,9 @@
     "topic": "Jumping spider (Portia fimbriata) sleep stages, University of Bonn, PNAS 2026",
     "category": "biology",
     "longformCategory": "animals-nature",
-    "alsoFits": ["human-body"],
+    "alsoFits": [
+      "human-body"
+    ],
     "contentType": "current affairs",
     "evergreen": false,
     "lengthSeconds": 29.2,
@@ -33,7 +35,10 @@
     "topic": "Onion lachrymatory factor (Imai et al., Nature 2002) and onion-cutting droplets (Wu, Jung et al., PNAS 2025)",
     "category": "food science",
     "longformCategory": "food-kitchen",
-    "alsoFits": ["human-body", "everyday-mysteries"],
+    "alsoFits": [
+      "human-body",
+      "everyday-mysteries"
+    ],
     "contentType": "fun fact",
     "evergreen": true,
     "lengthSeconds": 30.9,
@@ -63,7 +68,9 @@
     "topic": "Dwarf planet candidate 2026 ED138, Vera C. Rubin Observatory's first, announced 27 October 2026",
     "category": "space",
     "longformCategory": "space-earth",
-    "alsoFits": ["science-tech"],
+    "alsoFits": [
+      "science-tech"
+    ],
     "contentType": "current affairs",
     "evergreen": false,
     "lengthSeconds": 28.75,
@@ -92,7 +99,9 @@
     "topic": "Terracotta Army fingerprint age and sex study (Journal of Cultural Heritage, October 2026)",
     "category": "history",
     "longformCategory": "history",
-    "alsoFits": ["human-body"],
+    "alsoFits": [
+      "human-body"
+    ],
     "contentType": "current affairs",
     "evergreen": false,
     "lengthSeconds": 26.45,
@@ -121,7 +130,9 @@
     "topic": "Aircraft cabin window breather (bleed) hole and the three-pane window design",
     "category": "engineering",
     "longformCategory": "science-tech",
-    "alsoFits": ["everyday-mysteries"],
+    "alsoFits": [
+      "everyday-mysteries"
+    ],
     "contentType": "fun fact",
     "evergreen": true,
     "lengthSeconds": 30.8,
@@ -143,13 +154,105 @@
     ]
   },
   {
+    "id": "raising-chicago",
+    "title": "Why did Chicago lift its buildings?",
+    "idea": "Chicago sat on a swamp barely above the lake, so sewers had no downhill slope; in the 1850s-60s the city raised its streets by several feet and jacked whole buildings up to match, once lifting a row of Lake Street shops in five days while they stayed open.",
+    "topic": "Raising of Chicago: Chesbrough sewer plan (1856), street-grade raising, the 1860 Lake Street lift (600 men, 6,000 jackscrews, five days)",
+    "category": "engineering history",
+    "longformCategory": "history",
+    "alsoFits": [
+      "science-tech"
+    ],
+    "contentType": "niche",
+    "evergreen": true,
+    "lengthSeconds": 27.6,
+    "dateMade": "2026-11-02",
+    "compositionId": "RaisingChicago",
+    "script": "scripts/raising-chicago.md",
+    "files": {
+      "video4k": "out/raising-chicago-4K.mp4",
+      "captions": "out/raising-chicago.srt",
+      "scene": "src/shorts/raising-chicago/",
+      "pictures": "images/raising-chicago/",
+      "voice": "public/raising-chicago/vo/take1.wav"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Raising_of_Chicago",
+      "https://www.asce.org/about-civil-engineering/history-and-heritage/notable-civil-engineers/ellis-sylvester-chesbrough",
+      "https://www.enjoyillinois.com/illinois-200/raising-chicago/",
+      "https://gizmodo.com/chicago-was-raised-more-than-4-feet-in-the-1800s-to-bui-1646409024"
+    ]
+  },
+  {
+    "id": "doomsday-november-13",
+    "title": "Is the world ending on November 13th?",
+    "idea": "The viral Friday 13 November 2026 doomsday date comes from a real 1960 Science paper whose population curve reached infinity on that day; it was a warning about runaway growth, and real numbers fell behind the curve as families got smaller.",
+    "topic": "von Foerster, Mora & Amiot, Doomsday: Friday, 13 November, A.D. 2026 (Science, 1960) and its viral resurgence in 2026",
+    "category": "math / history",
+    "longformCategory": "history",
+    "alsoFits": [
+      "science-tech"
+    ],
+    "contentType": "trending",
+    "evergreen": false,
+    "lengthSeconds": 30.2,
+    "dateMade": "2026-11-02",
+    "compositionId": "Doomsday",
+    "script": "scripts/doomsday-november-13.md",
+    "files": {
+      "video4k": "out/doomsday-november-13-4K.mp4",
+      "captions": "out/doomsday-november-13.srt",
+      "scene": "src/shorts/doomsday-november-13/",
+      "pictures": "images/doomsday-november-13/",
+      "voice": "public/doomsday-november-13/vo/take1.wav"
+    },
+    "sources": [
+      "https://doi.org/10.1126/science.132.3436.1291",
+      "https://gizmodo.com/scientists-once-calculated-the-date-of-doomsday-and-its-next-month-2000820261",
+      "https://www.thenewdaily.com.au/life/science/2026/10/13/november-2026-doomsday-prediction",
+      "https://ourworldindata.org/world-population-growth"
+    ]
+  },
+  {
+    "id": "crocodiles-survived",
+    "title": "Why did crocodiles survive the asteroid?",
+    "idea": "Crocodile relatives mostly stuck to warm climates for 250 million years, so after the asteroid the tropics stayed liveable for them while dinosaurs lost far more of the climate they needed; being cold-blooded, small and semi-aquatic probably helped too.",
+    "topic": "Chiarenza et al. 2026, Science Advances (UCL): climatic niche conservatism and crocodile-line survival of the end-Cretaceous extinction",
+    "category": "paleontology",
+    "longformCategory": "animals-nature",
+    "alsoFits": [
+      "history",
+      "space-earth"
+    ],
+    "contentType": "current affairs",
+    "evergreen": true,
+    "lengthSeconds": 30.9,
+    "dateMade": "2026-11-03",
+    "compositionId": "Crocodiles",
+    "script": "scripts/crocodiles-survived.md",
+    "files": {
+      "video4k": "out/crocodiles-survived-4K.mp4",
+      "captions": "out/crocodiles-survived.srt",
+      "scene": "src/shorts/crocodiles-survived/",
+      "pictures": "images/crocodiles-survived/",
+      "voice": "public/crocodiles-survived/vo/take1.wav"
+    },
+    "sources": [
+      "https://www.sciencedaily.com/releases/2026/10/261030002922.htm",
+      "https://doi.org/10.1126/sciadv.aeg2217",
+      "https://www.sci.news/paleontology/warm-climate-pseudosuchians-15146.html"
+    ]
+  },
+  {
     "id": "orcas-longform",
     "title": "Why don't wild orcas kill people?",
     "idea": "Orcas kill blue whales and great white sharks, yet there's no confirmed case of a wild orca killing a person: learned family diets, echolocation and a careful social brain are the clues, captivity is the exception, and scientists still can't fully explain it.",
     "topic": "Orcas and humans: hunting, ecotypes and learned diets, echolocation, brain, captivity deaths, Southern Residents",
     "category": "biology",
     "longformCategory": "animals-nature",
-    "alsoFits": ["science-tech"],
+    "alsoFits": [
+      "science-tech"
+    ],
     "contentType": "fun fact",
     "evergreen": true,
     "format": "long-form 16:9",
@@ -170,6 +273,100 @@
       "https://en.wikipedia.org/wiki/Orca_attacks",
       "https://www.fisheries.noaa.gov/species/killer-whale",
       "https://www.whaleresearch.com/orca-population"
+    ]
+  },
+  {
+    "id": "falling-longform",
+    "title": "What actually happens when you fall",
+    "idea": "Everything falls: you stop speeding up at terminal velocity, the most famous survived fall may not have been as high as the record says, a parachute is a chain of backups, and the space station is falling right now, it just keeps missing.",
+    "topic": "Terminal velocity and speed skydiving (FAI record Aug 2025); the Vulovic record and the 2009 doubts (Guinness); how parachutes open and fail (USPA); why the ISS is in free fall and its 2030 deorbit (NASA)",
+    "category": "physics",
+    "longformCategory": "science-tech",
+    "alsoFits": [
+      "space-earth",
+      "history"
+    ],
+    "contentType": "fun fact",
+    "evergreen": true,
+    "lengthSeconds": 418.68,
+    "dateMade": "2026-11-03",
+    "compositionId": "FallingLongform",
+    "script": "scripts/falling-longform.md",
+    "chapters": [
+      {
+        "n": 1,
+        "title": "How fast do you fall?",
+        "short": "FallingShort1",
+        "video4k": "out/falling-short1-4K.mp4"
+      },
+      {
+        "n": 2,
+        "title": "The record that might not be true",
+        "short": "FallingShort2",
+        "video4k": "out/falling-short2-4K.mp4"
+      },
+      {
+        "n": 3,
+        "title": "How a parachute works",
+        "short": "FallingShort3",
+        "video4k": "out/falling-short3-4K.mp4"
+      },
+      {
+        "n": 4,
+        "title": "Why the space station is falling",
+        "short": "FallingShort4",
+        "video4k": "out/falling-short4-4K.mp4"
+      }
+    ],
+    "files": {
+      "video": "out/falling-longform-1080p.mp4",
+      "captions": "out/falling-longform.srt",
+      "scene": "src/longform/falling/",
+      "pictures": "images/falling/",
+      "voice": "public/falling/vo/"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Speed_skydiving",
+      "https://www.fai.org/record/20942",
+      "https://www.guinnessworldrecords.com/world-records/highest-fall-survived-without-parachute",
+      "https://english.radio.cz/node/8588548",
+      "https://www.iflscience.com/vesna-vulovic-the-woman-who-fell-over-10000-meters-and-miraculously-survived-80340",
+      "https://uspa.org/Discover/FAQs/Equipment",
+      "https://skydivemidwest.com/what-if-my-parachute-doesnt-open/",
+      "https://en.wikipedia.org/wiki/Automatic_activation_device",
+      "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+      "https://www.astronomy.com/space-exploration/nasa-selects-spacex-to-bring-iss-out-of-orbit-in-2030/"
+    ]
+  },
+  {
+    "id": "pickaxe-mountain-fallout",
+    "title": "Would bombing Pickaxe Mountain cause nuclear fallout?",
+    "idea": "Fallout comes from a nuclear explosion, and bombing uranium can't start one: a nuclear bomb squeezes its uranium together perfectly, an ordinary blast scatters it. The real hazard at an enrichment site is a heavy gas that turns to acid in damp air and stays close, under rock.",
+    "topic": "Iran's Pickaxe Mountain (Kuh-e Kolang Gaz La) near Natanz, strike threats Nov 2026; fallout vs conventional strikes; uranium hexafluoride",
+    "category": "science",
+    "longformCategory": "science-tech",
+    "alsoFits": [],
+    "contentType": "trending",
+    "evergreen": false,
+    "lengthSeconds": 32.1,
+    "dateMade": "2026-11-03",
+    "compositionId": "Pickaxe",
+    "script": "scripts/pickaxe-mountain-fallout.md",
+    "files": {
+      "video4k": "out/pickaxe-mountain-fallout-4K.mp4",
+      "captions": "out/pickaxe-mountain-fallout.srt",
+      "scene": "src/shorts/pickaxe-mountain-fallout/",
+      "pictures": "images/pickaxe-mountain-fallout/",
+      "voice": "public/pickaxe-mountain-fallout/vo/"
+    },
+    "sources": [
+      "https://www.twz.com/nuclear/a-nuclear-strike-on-iran-it-sounds-absurd-because-it-is-lets-talk-about-it",
+      "https://www.iranintl.com/en/202611031851",
+      "https://abcnews.com/Politics/pickaxe-mountain-trump-us-hit-iranian-nuclear-site/story?id=134957036",
+      "https://www.kpbs.org/news/science-technology/2025/06/18/if-a-u-s-bunker-buster-hits-a-nuclear-site-what-might-get-released-into-the-air",
+      "https://www.wwno.org/npr-news/2025-06-21/bombing-a-nuclear-site-what-are-the-risks",
+      "https://www.nbcnews.com/world/iran/iran-israel-war-fordo-nuclear-site-trump-negotiations-reactors-rcna213923",
+      "https://www.news4jax.com/news/2025/06/16/nuclear-agency-head-warns-of-radiological-and-chemical-contamination-inside-irans-main-nuclear-site/"
     ]
   }
 ]

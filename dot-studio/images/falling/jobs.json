@@ -1,0 +1,20 @@
+{
+  "base": "https://d8j0ntlcm91z4.cloudfront.net/user_3JgpZXBjUvV4xIVI4acvM75El9e/",
+  "images/falling/vo-raw/s01.wav": "hf_20261103_070132_5286c227-fe61-42ea-8eac-1978c728040d.wav",
+  "images/falling/vo-raw/s02.wav": "hf_20261103_070132_e89b6eda-3d7c-4f49-9ba3-c1797535c97c.wav",
+  "images/falling/vo-raw/s03.wav": "hf_20261103_070132_19804523-be9f-4911-bf74-9152591d5797.wav",
+  "images/falling/vo-raw/s04.wav": "hf_20261103_070232_b3c2d52f-90c6-442c-a2f5-75aee28a8da5.wav",
+  "images/falling/vo-raw/s05.wav": "hf_20261103_070131_e5a4f100-0d2e-4474-b623-89d24791c806.wav",
+  "images/falling/vo-raw/s06.wav": "hf_20261103_071701_fc05ef63-3b61-414c-82c3-4d1587031825.wav",
+  "images/falling/raw/dot_freefall.png": "hf_20261103_070137_7a7961aa-82a4-48f3-9b9d-aa936e27f331.png",
+  "images/falling/raw/dot_headdown.png": "hf_20261103_070137_d6ee86a5-0637-4267-b784-8bfabd036771.png",
+  "images/falling/raw/dot_canopy.png": "hf_20261103_070138_895138b0-84c8-483e-b1ef-72ec2fb7043c.png",
+  "images/falling/raw/plane.png": "hf_20261103_070138_77e820f0-ec9b-405e-b246-a236d093aedf.png",
+  "images/falling/raw/station.png": "hf_20261103_070137_3fbce39f-9497-4c9b-b346-fc24fb06e32f.png",
+  "images/falling/sfx-raw/wind_rush.wav": "hf_20261103_070231_e46aa79e-5604-43cc-8404-9a95194c1054.wav",
+  "images/falling/sfx-raw/plane_drone.wav": "hf_20261103_070132_3b930061-b6f2-40b8-bd12-3c03d6f10355.wav",
+  "images/falling/sfx-raw/canopy_open.wav": "hf_20261103_070132_d38de433-c01d-4f12-99df-124f00326d5a.wav",
+  "images/falling/sfx-raw/velcro_rip.wav": "hf_20261103_070131_826aab0d-8e0c-4c9b-bc2a-57ce43899b60.wav",
+  "images/falling/sfx-raw/aad_pop.wav": "hf_20261103_070132_0a7bafdc-fdf7-4c2f-88ee-ddfe9cdadfcf.wav",
+  "images/falling/sfx-raw/thruster_burn.wav": "hf_20261103_070131_aca8da02-43ac-45bf-8097-612f2e39144f.wav"
+}
