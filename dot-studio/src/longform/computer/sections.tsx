@@ -505,8 +505,8 @@ export const S5: React.FC<P> = ({t}) => {
           );
         })}
       </WorldSvg>
-      <Tag t={t} t0={cue(5, 'the metal fins')} t1={sound} x={760} y={180} size={56}>fins + pipes + fan</Tag>
-      <Tag t={t} t0={cue(5, 'the sound of arithmetic') - 0.1} x={760} y={180} size={70} color={GOLD}>the sound of arithmetic</Tag>
+      <Tag t={t} t0={cue(5, 'the metal fins')} t1={sound} x={540} y={120} size={56}>fins + pipes + fan</Tag>
+      <Tag t={t} t0={cue(5, 'the sound of arithmetic') - 0.1} x={540} y={120} size={70} color={GOLD}>the sound of arithmetic</Tag>
     </>
   );
 };
