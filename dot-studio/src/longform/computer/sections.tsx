@@ -473,8 +473,8 @@ export const S5: React.FC<P> = ({t}) => {
           })}
         </WorldSvg>
         <Heat t={t} x0={260} x1={820} y={180} strength={warm} />
-        <Tag t={t} t0={each + 0.2} t1={add} x={540} y={860} size={60}>each flip: a tiny bit of energy</Tag>
-        <Tag t={t} t0={cue(5, 'Almost all of it')} x={540} y={860} size={74} color={GOLD}>→ almost all heat</Tag>
+        <Tag t={t} t0={each + 0.2} t1={add} x={540} y={95} size={60}>each flip: a tiny bit of energy</Tag>
+        <Tag t={t} t0={cue(5, 'Almost all of it')} x={540} y={95} size={74} color={GOLD}>→ almost all heat</Tag>
       </>
     );
   }
