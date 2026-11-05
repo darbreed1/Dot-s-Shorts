@@ -399,42 +399,48 @@
         "title": "What does a computer actually do?",
         "short": "ComputerShort1",
         "video4k": "out/computer-short1-4K.mp4",
-        "captions": "out/computer-short1.srt"
+        "captions": "out/computer-short1.srt",
+        "lengthSeconds": 49.25
       },
       {
         "n": 2,
         "title": "How many switches are in a chip?",
         "short": "ComputerShort2",
         "video4k": "out/computer-short2-4K.mp4",
-        "captions": "out/computer-short2.srt"
+        "captions": "out/computer-short2.srt",
+        "lengthSeconds": 50.88
       },
       {
         "n": 3,
         "title": "Grace Hopper's nanosecond",
         "short": "ComputerShort3",
         "video4k": "out/computer-short3-4K.mp4",
-        "captions": "out/computer-short3.srt"
+        "captions": "out/computer-short3.srt",
+        "lengthSeconds": 58.95
       },
       {
         "n": 4,
         "title": "Why your processor waits",
         "short": "ComputerShort4",
         "video4k": "out/computer-short4-4K.mp4",
-        "captions": "out/computer-short4.srt"
+        "captions": "out/computer-short4.srt",
+        "lengthSeconds": 58.33
       },
       {
         "n": 5,
         "title": "Why does your computer need a fan?",
         "short": "ComputerShort5",
         "video4k": "out/computer-short5-4K.mp4",
-        "captions": "out/computer-short5.srt"
+        "captions": "out/computer-short5.srt",
+        "lengthSeconds": 44.92
       },
       {
         "n": 6,
         "title": "Does your computer understand anything?",
         "short": "ComputerShort6",
-        "video4k": "out/computer-short6-4K.mp4",
-        "captions": "out/computer-short6.srt"
+        "video4k": null,
+        "captions": "out/computer-short6.srt",
+        "note": "not rendered (not in the publish plan); render with node images/lib/render.mjs ComputerShort6 out/computer-short6-4K.mp4 2"
       }
     ],
     "files": {
