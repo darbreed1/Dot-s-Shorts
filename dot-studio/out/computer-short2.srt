@@ -1,0 +1,87 @@
+1
+00:00:00,550 --> 00:00:02,750
+Two thousand three
+hundred switches.
+
+2
+00:00:03,710 --> 00:00:05,890
+That's all the first
+computer chip you could buy
+
+3
+00:00:05,890 --> 00:00:06,690
+had.
+
+4
+00:00:07,030 --> 00:00:10,030
+The chips we use now have
+far more, and the real
+
+5
+00:00:10,030 --> 00:00:11,630
+number is hard to even picture.
+
+6
+00:00:12,430 --> 00:00:16,250
+That first chip was
+Intel's 4004, from 1971.
+
+7
+00:00:17,290 --> 00:00:20,390
+Each of its switches, called
+a transistor, is simply
+
+8
+00:00:20,390 --> 00:00:21,370
+on or off.
+
+9
+00:00:22,130 --> 00:00:25,290
+Say you tried to count them,
+one every second, without
+
+10
+00:00:25,290 --> 00:00:26,090
+ever sleeping.
+
+11
+00:00:26,810 --> 00:00:28,870
+Two thousand three hundred
+would take you under
+
+12
+00:00:28,870 --> 00:00:29,670
+an hour.
+
+13
+00:00:30,150 --> 00:00:32,490
+A billion would take
+you over thirty years.
+
+14
+00:00:33,330 --> 00:00:35,710
+Even an everyday laptop
+chip has billions.
+
+15
+00:00:36,690 --> 00:00:40,230
+And the biggest yet,
+Apple's M2 Ultra from 2023,
+
+16
+00:00:40,790 --> 00:00:43,830
+has a hundred and thirty-four
+billion, about fifty-eight
+
+17
+00:00:43,830 --> 00:00:45,370
+million times the first.
+
+18
+00:00:46,250 --> 00:00:48,890
+Counting those would take
+you more than four thousand
+
+19
+00:00:48,890 --> 00:00:49,690
+years.

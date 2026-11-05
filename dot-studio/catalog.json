@@ -368,5 +368,88 @@
       "https://www.nbcnews.com/world/iran/iran-israel-war-fordo-nuclear-site-trump-negotiations-reactors-rcna213923",
       "https://www.news4jax.com/news/2025/06/16/nuclear-agency-head-warns-of-radiological-and-chemical-contamination-inside-irans-main-nuclear-site/"
     ]
+  },
+  {
+    "id": "computer-longform",
+    "title": "How a computer actually works",
+    "idea": "A computer can only tell whether a switch is on or off: everything else is that trick, repeated by billions of transistors at a speed light itself can barely keep up with (Grace Hopper's nanosecond wire), with the processor often waiting on memory, almost all the electricity turning into heat, and all the meaning on the viewer's side of the screen.",
+    "topic": "Transistors as switches and bits; transistor counts (Intel 4004 1971, Apple M2 Ultra 2023); Grace Hopper's nanosecond wire and a 3 GHz tick; memory waits, caches and prediction; why chips get hot; meaning vs data",
+    "category": "technology",
+    "longformCategory": "science-tech",
+    "alsoFits": [
+      "history"
+    ],
+    "contentType": "fun fact",
+    "evergreen": true,
+    "format": "long-form 16:9",
+    "lengthSeconds": 301.96,
+    "dateMade": "2026-11-05",
+    "compositionId": "ComputerLongform",
+    "script": "scripts/computer-longform.md",
+    "publishOrder": [
+      3,
+      1,
+      5,
+      2,
+      4
+    ],
+    "chapters": [
+      {
+        "n": 1,
+        "title": "What does a computer actually do?",
+        "short": "ComputerShort1",
+        "video4k": "out/computer-short1-4K.mp4",
+        "captions": "out/computer-short1.srt"
+      },
+      {
+        "n": 2,
+        "title": "How many switches are in a chip?",
+        "short": "ComputerShort2",
+        "video4k": "out/computer-short2-4K.mp4",
+        "captions": "out/computer-short2.srt"
+      },
+      {
+        "n": 3,
+        "title": "Grace Hopper's nanosecond",
+        "short": "ComputerShort3",
+        "video4k": "out/computer-short3-4K.mp4",
+        "captions": "out/computer-short3.srt"
+      },
+      {
+        "n": 4,
+        "title": "Why your processor waits",
+        "short": "ComputerShort4",
+        "video4k": "out/computer-short4-4K.mp4",
+        "captions": "out/computer-short4.srt"
+      },
+      {
+        "n": 5,
+        "title": "Why does your computer need a fan?",
+        "short": "ComputerShort5",
+        "video4k": "out/computer-short5-4K.mp4",
+        "captions": "out/computer-short5.srt"
+      },
+      {
+        "n": 6,
+        "title": "Does your computer understand anything?",
+        "short": "ComputerShort6",
+        "video4k": "out/computer-short6-4K.mp4",
+        "captions": "out/computer-short6.srt"
+      }
+    ],
+    "files": {
+      "video": "out/computer-longform-1080p.mp4",
+      "captions": "out/computer-longform.srt",
+      "scene": "src/longform/computer/",
+      "pictures": "images/computer/",
+      "voice": "public/computer/vo/"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Transistor_count",
+      "https://highscalability.com/grace-hopper-to-programmers-mind-your-nanoseconds/",
+      "https://computerhope.com/jargon/n/nanosec.htm",
+      "https://en.wikipedia.org/wiki/CPU_cache",
+      "https://en.wikipedia.org/wiki/Processor_power_dissipation"
+    ]
   }
 ]

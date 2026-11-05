@@ -1,0 +1,88 @@
+1
+00:00:00,550 --> 00:00:04,230
+Grace Hopper carried a
+nanosecond in her pocket.
+
+2
+00:00:04,930 --> 00:00:07,350
+And it shows something
+strange about the computer
+
+3
+00:00:07,350 --> 00:00:08,730
+you're using right now.
+
+4
+00:00:09,250 --> 00:00:12,810
+Hopper was a computer pioneer
+and a US Navy admiral.
+
+5
+00:00:13,610 --> 00:00:16,870
+At her talks, she handed
+out pieces of wire about
+
+6
+00:00:16,870 --> 00:00:18,310
+thirty centimetres long.
+
+7
+00:00:19,050 --> 00:00:23,210
+That, she said, is a
+nanosecond, a billionth
+
+8
+00:00:23,210 --> 00:00:26,230
+of a second: the farthest
+light can travel in
+
+9
+00:00:26,230 --> 00:00:27,030
+that time.
+
+10
+00:00:27,650 --> 00:00:31,150
+A microsecond was a coil
+three hundred metres long.
+
+11
+00:00:31,970 --> 00:00:34,450
+She joked that programmers
+should hang one around
+
+12
+00:00:34,450 --> 00:00:36,790
+their neck, to see
+what they were wasting.
+
+13
+00:00:37,630 --> 00:00:41,390
+Now, a processor running
+at three gigahertz takes
+
+14
+00:00:41,390 --> 00:00:44,170
+one step every third
+of a nanosecond.
+
+15
+00:00:44,970 --> 00:00:46,670
+So cut her wire into three.
+
+16
+00:00:47,470 --> 00:00:50,110
+In one tick of your
+computer's clock, light,
+
+17
+00:00:50,110 --> 00:00:53,970
+the fastest thing there
+is, only gets about ten
+
+18
+00:00:53,970 --> 00:00:54,770
+centimetres.
+
+19
+00:00:55,450 --> 00:00:57,370
+Roughly the width of your hand.

@@ -1,0 +1,90 @@
+1
+00:00:00,970 --> 00:00:03,770
+Your processor spends a lot
+of its time doing nothing
+
+2
+00:00:03,770 --> 00:00:04,570
+at all.
+
+3
+00:00:04,930 --> 00:00:07,050
+It isn't broken,
+and it isn't lazy.
+
+4
+00:00:07,750 --> 00:00:10,390
+And engineers have some
+clever tricks to stop it.
+
+5
+00:00:10,970 --> 00:00:13,530
+A processor can finish
+a step in a fraction of
+
+6
+00:00:13,530 --> 00:00:14,350
+a nanosecond.
+
+7
+00:00:15,070 --> 00:00:17,370
+That's so fast that the
+rest of the computer often
+
+8
+00:00:17,370 --> 00:00:18,230
+can't keep up.
+
+9
+00:00:19,030 --> 00:00:22,330
+The information it needs
+is usually stored somewhere
+
+10
+00:00:22,330 --> 00:00:25,790
+else, in memory, and
+fetching it takes time, even
+
+11
+00:00:25,790 --> 00:00:26,910
+at the speed of electricity.
+
+12
+00:00:27,910 --> 00:00:28,710
+So it waits.
+
+13
+00:00:29,430 --> 00:00:30,350
+Here are the tricks.
+
+14
+00:00:31,190 --> 00:00:33,610
+Small stores of memory
+right next to the processor,
+
+15
+00:00:33,890 --> 00:00:36,730
+called caches, keep what
+it's likely to need close
+
+16
+00:00:36,730 --> 00:00:37,530
+by.
+
+17
+00:00:37,910 --> 00:00:40,930
+And it guesses what it
+will need next, and starts
+
+18
+00:00:40,930 --> 00:00:41,730
+early.
+
+19
+00:00:42,230 --> 00:00:45,170
+A lot of what makes a chip
+fast is simply waiting
+
+20
+00:00:45,170 --> 00:00:45,970
+less.

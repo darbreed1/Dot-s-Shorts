@@ -111,8 +111,9 @@ Keep this table in step with `catalog.json` (add a row when an episode is finish
 | 2026-11-03 | crocodiles-survived | Why did crocodiles survive the asteroid? | current affairs | animals-nature | 30.9 s |
 | 2026-11-03 | falling-longform | What actually happens when you fall (long-form, 16:9; 4 chapter Shorts FallingShort1-4) | fun fact | science-tech | 6 min 59 s |
 | 2026-11-03 | pickaxe-mountain-fallout | Would bombing Pickaxe Mountain cause nuclear fallout? | trending | science-tech | 32.1 s |
+| 2026-11-05 | computer-longform | How a computer actually works (long-form, 16:9; 6 chapter Shorts ComputerShort1-6, publish 3, 1, 5, 2, 4) | fun fact | science-tech | 5 min 2 s |
 
-Content types so far: current affairs 4, fun fact 3 (one long-form), trending 2, niche 1. Coverage gaps to fill
+Content types so far: current affairs 4, fun fact 5 (three long-forms), trending 2, niche 1. Coverage gaps to fill
 next: no human-body or everyday-mysteries episode yet (wrinkly-fingers and recorded-voice are ready to go);
 niche is the thinnest type.
 

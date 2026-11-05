@@ -1,0 +1,79 @@
+1
+00:00:00,830 --> 00:00:02,490
+Why does your
+computer need a fan?
+
+2
+00:00:03,330 --> 00:00:05,470
+The heat comes from
+somewhere you can't see.
+
+3
+00:00:06,150 --> 00:00:09,450
+Inside the chip are billions
+of tiny switches, called
+
+4
+00:00:09,450 --> 00:00:10,330
+transistors.
+
+5
+00:00:11,230 --> 00:00:14,030
+They flip on and off,
+up to billions of times
+
+6
+00:00:14,030 --> 00:00:16,670
+a second, whenever your
+computer does anything at
+
+7
+00:00:16,670 --> 00:00:17,470
+all.
+
+8
+00:00:17,650 --> 00:00:20,690
+Each flip takes a tiny
+bit of electricity.
+
+9
+00:00:21,650 --> 00:00:23,030
+On its own, that's nothing.
+
+10
+00:00:23,750 --> 00:00:26,710
+But billions of switches,
+billions of times a second,
+
+11
+00:00:27,130 --> 00:00:27,570
+add up.
+
+12
+00:00:27,570 --> 00:00:30,590
+And that electricity doesn't
+get stored away anywhere.
+
+13
+00:00:31,430 --> 00:00:33,130
+Almost all of it
+ends up as heat.
+
+14
+00:00:33,870 --> 00:00:36,130
+So the fan, the metal
+fins and the little pipes
+
+15
+00:00:36,130 --> 00:00:38,470
+are there to carry it
+away, before the chip has
+
+16
+00:00:38,470 --> 00:00:39,590
+to slow itself down.
+
+17
+00:00:40,370 --> 00:00:43,130
+When your fan spins up, that's
+the sound of arithmetic.

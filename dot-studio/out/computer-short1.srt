@@ -1,0 +1,81 @@
+1
+00:00:00,810 --> 00:00:03,070
+Your computer can't
+actually do anything.
+
+2
+00:00:03,890 --> 00:00:04,790
+Not the way you think.
+
+3
+00:00:05,570 --> 00:00:09,250
+Every photo, song and game
+on it comes down to one
+
+4
+00:00:09,250 --> 00:00:12,370
+tiny trick, repeated
+over and over.
+
+5
+00:00:13,070 --> 00:00:16,050
+Inside the chip are billions
+of tiny parts called
+
+6
+00:00:16,050 --> 00:00:16,850
+transistors.
+
+7
+00:00:17,750 --> 00:00:21,630
+Each one holds a single
+answer, like a yes or
+
+8
+00:00:21,630 --> 00:00:22,430
+a no.
+
+9
+00:00:23,050 --> 00:00:25,410
+Eight of them in a row
+can stand for any one
+
+10
+00:00:25,410 --> 00:00:28,370
+of two hundred and fifty-six
+things, like a letter,
+
+11
+00:00:28,850 --> 00:00:30,270
+a colour, or a number.
+
+12
+00:00:31,030 --> 00:00:33,910
+Line up enough of them, and
+you can describe a song,
+
+13
+00:00:33,910 --> 00:00:35,370
+or a face.
+
+14
+00:00:36,210 --> 00:00:38,730
+Change them fast enough,
+and the picture moves.
+
+15
+00:00:39,650 --> 00:00:40,490
+So what's the trick?
+
+16
+00:00:41,270 --> 00:00:42,910
+Each transistor is a switch.
+
+17
+00:00:43,830 --> 00:00:46,250
+And all your computer can
+do is tell whether a switch
+
+18
+00:00:46,250 --> 00:00:47,710
+is on, or off.
