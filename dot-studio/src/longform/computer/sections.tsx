@@ -224,6 +224,8 @@ export const S2: React.FC<P> = ({t}) => {
   return (
     <>
       <Backdrop color="#2C3150" floor={FLOOR} floorColor="#232740" />
+      {/* Dot stays on the floor and the mound rises over him (drawn after him) */}
+      <DotRig t={t} swaps={[{at: 0, pose: 'dot_surprised'}]} x={800} y={FLOOR} headR={70} />
       <WorldSvg box={[-500, 0, 1580, 1100]}>
         <path d={`M-500,${FLOOR} Q540,${lerp(FLOOR, 380, bury)} 1580,${FLOOR} Z`} fill={ON} stroke={INK} strokeWidth={8} />
         {Array.from({length: 160}, (_, i) => {
@@ -233,7 +235,6 @@ export const S2: React.FC<P> = ({t}) => {
           return <rect key={i} x={x} y={y} width={22} height={16} rx={3} fill={rand(i + 7) > 0.5 ? ON : '#4A5068'} stroke={INK} strokeWidth={3} opacity={y < FLOOR ? 1 : 0} />;
         })}
       </WorldSvg>
-      <DotRig t={t} swaps={[{at: 0, pose: 'dot_surprised'}]} x={800} y={FLOOR + 380 * bury} headR={70} shadow={false} />
       <Cutout sp={S.chip} x={300} y={330} w={300} pop={pop(t, biggest - 0.1)} />
       <Tag t={t} t0={cue(2, 'M2 Ultra')} x={300} y={520} size={52}>Apple M2 Ultra · 2023</Tag>
       {big > 0 ? <Tag t={t} t0={hundred - 0.2} x={540} y={130} size={92} color={GOLD}>134,000,000,000</Tag> : null}
