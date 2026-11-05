@@ -38,7 +38,9 @@ export const Mixer: React.FC<{cues: readonly Cue[]; offset?: number; end?: numbe
         if (c.at >= end || (c.until !== undefined && c.until <= offset)) return null;
         const start = Math.max(c.at, offset);
         const from = Math.round((start - offset) * fps);
-        const trim = Math.round((start - c.at) * fps);
+        // a looped bed that began before the window just starts afresh at the window start (trimming it by more than
+        // its own length makes Remotion's <Loop> fail with a negative duration)
+        const trim = c.loop ? 0 : Math.round((start - c.at) * fps);
         const stop = Math.min(c.until ?? Infinity, end);
         return (
           <Sequence key={i} from={from} durationInFrames={stop < Infinity ? Math.max(1, Math.round((stop - start) * fps)) : undefined} layout="none">

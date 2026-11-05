@@ -1,0 +1,21 @@
+{
+  "base": "https://d8j0ntlcm91z4.cloudfront.net/user_3JgpZXBjUvV4xIVI4acvM75El9e/",
+  "images/computer/vo-raw/s01.wav": "hf_20261105_061820_f3b93050-a4d7-451a-bcf5-1888e5f419b7.wav",
+  "images/computer/vo-raw/s02.wav": "hf_20261105_061821_1f0f0a42-c0fd-40c6-9b63-5d34db628216.wav",
+  "images/computer/vo-raw/s03.wav": "hf_20261105_061821_6f67c4b1-23c3-4f8e-ae65-6ab1ebc80b92.wav",
+  "images/computer/vo-raw/s04.wav": "hf_20261105_061832_73ebfd51-e38a-40e2-9a79-a61522f6994b.wav",
+  "images/computer/vo-raw/s05.wav": "hf_20261105_061832_cc92ebd1-f0e7-4afd-b5d1-3d9efc27d86e.wav",
+  "images/computer/vo-raw/s06.wav": "hf_20261105_061832_ced795f1-d3ba-4c70-8ae6-76b53c89266e.wav",
+  "images/computer/raw/laptop.png": "hf_20261105_061858_9ef045ce-9b24-4b9b-bdeb-b209a0263e61.png",
+  "images/computer/raw/ram_stick.png": "hf_20261105_061857_b54b75a1-be66-4aa2-8d72-50e443b52215.png",
+  "images/computer/raw/speaker.png": "hf_20261105_061857_61807d7d-cc57-491e-b9f1-6e3aa068c5cc.png",
+  "images/computer/raw/chip.png": "hf_20261105_061856_173953c9-43c7-4dee-928d-c6e4a6602174.png",
+  "images/computer/raw/cooler.png": "hf_20261105_061856_fa7af935-33ed-4ca4-ba21-ccc95ad809ec.png",
+  "images/computer/raw/dot_snip.png": "hf_20261105_061856_ef839e50-07da-4f7c-9149-be060f11953b.png",
+  "images/computer/raw/dot_warm.png": "hf_20261105_062110_f49526d9-b69a-4432-abeb-4a23fef59d65.png",
+  "images/computer/sfx-raw/switch_click.wav": "hf_20261105_061905_6fd66284-8ec8-4ce8-af11-01f66905d1ac.wav",
+  "images/computer/sfx-raw/fan_whir.wav": "hf_20261105_061905_e71bae1b-3aae-466e-8e09-4b3465267458.wav",
+  "images/computer/sfx-raw/scissors_snip.wav": "hf_20261105_061904_8b9a02fb-f53d-4673-820b-bcd0d7e580b7.wav",
+  "images/computer/sfx-raw/computer_hum.wav": "hf_20261105_062246_c2360c49-bbc1-4d70-b371-c9cdc64c690b.wav",
+  "images/computer/sfx-raw/pour.wav": "hf_20261105_062246_65ab35b1-1f80-4424-834c-b9ffd8806ee6.wav"
+}

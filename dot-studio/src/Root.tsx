@@ -23,6 +23,7 @@ import {FPS as ORCA_FPS, OrcaLongform} from './longform/orcas/OrcaLongform';
 import {END as ORCA_END} from './longform/orcas/timeline';
 import {OrcaThumbnail} from './longform/orcas/Thumbnail';
 import {FallingThumbnail} from './longform/falling/Thumbnail';
+import {ComputerChapter, ComputerLongform, FPS as COMP_FPS, LONGFORM_END as COMP_END, chapterWindow as compWindow} from './longform/computer/Computer';
 
 // Every Short takes its size as props (default vertical 1080x1920) so it can be re-framed for 16:9 later.
 type Size = {width: number; height: number};
@@ -156,6 +157,33 @@ export const Root: React.FC = () => (
           width={1080}
           height={1920}
           defaultProps={{width: 1080, height: 1920, chapter: n + 1}}
+          calculateMetadata={({props}: {props: Size & {chapter: number}}) => ({width: props.width, height: props.height})}
+        />
+      );
+    })}
+    <Composition
+      id="ComputerLongform"
+      component={ComputerLongform as React.FC<Size>}
+      durationInFrames={Math.round(COMP_END * COMP_FPS)}
+      fps={COMP_FPS}
+      width={1920}
+      height={1080}
+      defaultProps={{width: 1920, height: 1080}}
+      calculateMetadata={sized}
+    />
+    {/* each of its six chapters as a vertical Short (ComputerShort n = chapter n) */}
+    {[1, 2, 3, 4, 5, 6].map((n) => {
+      const w = compWindow(n);
+      return (
+        <Composition
+          key={`c${n}`}
+          id={`ComputerShort${n}`}
+          component={ComputerChapter as unknown as React.FC<Size & {chapter: number}>}
+          durationInFrames={Math.round((w.to - w.from) * COMP_FPS)}
+          fps={COMP_FPS}
+          width={1080}
+          height={1920}
+          defaultProps={{width: 1080, height: 1920, chapter: n}}
           calculateMetadata={({props}: {props: Size & {chapter: number}}) => ({width: props.width, height: props.height})}
         />
       );
