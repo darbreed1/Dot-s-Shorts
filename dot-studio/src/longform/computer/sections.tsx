@@ -6,6 +6,7 @@ import {ThoughtCloud} from '../../kit/effects/ThoughtCloud';
 import {Glint, Glow, SweatDrop} from '../../kit/effects/small';
 import {WorldSvg} from '../../kit/effects/WorldSvg';
 import {Zzz} from '../../kit/effects/Zzz';
+import {useBleedBox} from '../../kit/Stage';
 import {fontFamily} from '../../kit/font';
 import {Backdrop, Bit, BigSwitch, Bulb, Card, Cutout, DotRig, Finger, GOLD, Hand, Heat, INK, ON, Pile, RED, Tag, cue, flick, pop, secEnd, secStart} from './parts';
 import {S} from './sprites';
@@ -368,6 +369,10 @@ export const S4: React.FC<P> = ({t}) => {
   const fast = cue(4, 'A lot of what makes');
   const chipX = 300;
   const chipY = 470;
+  // memory sits far off to the right in 16:9; the vertical frame only shows the stage, so it comes inside there
+  const B = useBleedBox();
+  const memX = Math.min(1240, B[2] - 24 - 230);
+  const memW = memX < 1240 ? 330 : 430;
   const cacheOn = t > caches - 0.2;
   // data packets: before the tricks one crawls slowly from far memory; after, they zip in from the cache
   const slow = ((t - stored) / 5) % 1;
@@ -382,17 +387,17 @@ export const S4: React.FC<P> = ({t}) => {
       <Backdrop color="#DCEBF5" />
       {/* the long road to memory */}
       <WorldSvg box={[-400, 300, 1500, 700]}>
-        <path d={`M${chipX + 150},${chipY} L1460,${chipY}`} stroke="#9AA3B8" strokeWidth={26} strokeLinecap="round" strokeDasharray="2 34" />
+        <path d={`M${chipX + 150},${chipY} L${memX + 220},${chipY}`} stroke="#9AA3B8" strokeWidth={26} strokeLinecap="round" strokeDasharray="2 34" />
       </WorldSvg>
-      <Cutout sp={S.ram_stick} x={1240} y={chipY} w={430} pop={pop(t, stored - 0.2)} />
-      <Tag t={t} t0={cue(4, 'in memory')} x={1240} y={chipY + 140} size={52}>memory</Tag>
+      <Cutout sp={S.ram_stick} x={memX} y={chipY} w={memW} pop={pop(t, stored - 0.2)} />
+      <Tag t={t} t0={cue(4, 'in memory')} x={memX} y={chipY + 140} size={52}>memory</Tag>
       <Cutout sp={S.chip} x={chipX} y={chipY} w={300} rot={bored && tap ? 1.5 : 0} />
       <ObjectFace id="chip4" x={chipX} y={chipY - 10} r={110} open={face.open} brow={bored ? 'none' : 'raised'} mouth={face.mouth} look={face.look} ink={6} />
       {t > waits && t < tricks ? <Zzz t={t} x={chipX + 80} y={chipY - 140} t0={waits} t1={tricks} size={46} dir={0.4} /> : null}
       {t > step && t < step + 0.6 ? <Glint t={t} t0={step} x={chipX + 120} y={chipY - 120} r={44} /> : null}
       {t > stored && !cacheOn ? (
-        <WorldSvg box={[chipX, chipY - 60, 1300, chipY + 60]}>
-          <rect x={lerp(1180, chipX + 160, slow) - 22} y={chipY - 22} width={44} height={44} rx={8} fill={ON} stroke={INK} strokeWidth={5} />
+        <WorldSvg box={[chipX, chipY - 60, memX + 60, chipY + 60]}>
+          <rect x={lerp(memX - 60, chipX + 160, slow) - 22} y={chipY - 22} width={44} height={44} rx={8} fill={ON} stroke={INK} strokeWidth={5} />
         </WorldSvg>
       ) : null}
       {cacheOn ? (
